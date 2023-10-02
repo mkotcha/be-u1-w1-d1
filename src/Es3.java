@@ -34,6 +34,7 @@ public class Es3 {
         j = input.nextDouble();
         k = input.nextDouble();
         System.out.println("l'area del triengolo è  " + triangleArea(i, j, k));
+        input.close();
     }
 
 }

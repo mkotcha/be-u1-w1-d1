@@ -22,7 +22,7 @@ public class Es2 {
         }
 
         System.out.println(rwdStr);
-
+        input.close();
     }
 
 }
