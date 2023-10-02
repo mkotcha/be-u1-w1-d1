@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Es3 {
-    public static Double perimeter(Double l, Double m) {
+    public static double perimeter(double l, double m) {
         return (l * 2) + (m * 2);
     }
 
@@ -10,14 +10,14 @@ public class Es3 {
         else return 1;
     }
 
-    public static Double triangleArea(Double l, double m, double n) {
-        Double p = l + m;
+    public static double triangleArea(double l, double m, double n) {
+        double p = l + m;
         return Math.sqrt(p) * (p - l) * (p - m) * (p - n);
     }
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Double l, m, i, j, k;
+        double l, m, i, j, k;
         int n;
         System.out.println("inserisci i 2 lati del rettangolo");
         l = input.nextDouble();
